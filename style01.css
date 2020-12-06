@@ -13,17 +13,31 @@
 }
 
 .navbar {
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .nav-item {
-    margin-left: 40px;
+    /* margin-left: 40px;
     margin-bottom: 10px;
+     */
+
+     color:#320d6d;
+     text-decoration:none;
+     padding:16px 80px;
+     border-radius:5px;
+     font-variant:normal;
+     text-align:center;
+     margin-right:auto;
+     font-weight:600;
+     margin: 50px 95px 30px 10px;
+     border:1 px solid;
+     background-color: rgba(255, 255, 255,0.2);
+ 
 
 }
 
 .nav-link {
-    color: #fff !important;
+    color: #320d6d !important;
     font-weight: bold;
     font-size: 12px !important;
     padding: 0 0 5px 0 !important;
@@ -57,20 +71,47 @@
 }
 
 .banner {
-    margin-top: 8%;
+    margin-top: 1%;
     color: rgb(49, 24, 88);
     background: #859af5;
 }
 
+/* this is related banner section */
+
 banner h1 {
-    margin: 80px 0 50px;
+    /* margin: 80px 500px 50px 60px; */
     font-weight: 600;
     font-size: 50px;
 }
 
+/* banner h1 p{
+    text-align: right;
+    margin-top: 2%;
+margin-right: 50% !important;
+
+} */
+
+
 .banner img {
+    margin-top: 10%;
     max-height: 500px;
     max-width: 600px;
+    float: left !important;
+  padding: 2% !important;
+
+}
+
+.banner #rgtBanner{
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-right: 0%;
+    float: right !important;
+    border: 1px solid black;
+    border-top: 20px solid black;
+      padding:5% 2% 2% 2% !important;
+      max-height: 700px !important;
+    max-width: 600px !important;
+
 }
 
 .banner a {
@@ -92,12 +133,12 @@ banner h1 {
 .banner a:hover {
     color: aqua !important;
 }
-
+/* 
 .express-btn {
     background: #fff !important;
     color:  #859af5 !important;
     margin-right: 5px;
-}
+} */
 
 .title {
     text-align: center;
@@ -172,8 +213,10 @@ banner h1 {
 
 .feature {
     margin: 200px 0;
-    /* background-image: url("images2/kkArts.jpg"); */
-    /* background: #f2e6ff; */
+    /* background-image: url("images2/Homep2.jpg") !important; */
+    background: #f2e6ff;
+    background-repeat: no-repeat;
+    
 
 }
 
@@ -186,7 +229,8 @@ banner h1 {
     margin-top: 100px;
     font-weight: bold;
     line-height: 50px;
-    color:  #859af5;
+    color:  #202955;
+    border-top: 10px solid black;
 }
 
 .feature p {
@@ -218,7 +262,7 @@ banner h1 {
     margin: 100px 0;
 }
 
-.carousel-item img {
+/* .carousel-item img {
     width: 150px;
     border-radius: 50%;
 }
@@ -258,7 +302,7 @@ banner h1 {
 
 .carousel-indicators li {
     background-color:  #859af5!important;
-}
+} */
 
 /* @media only screen and(max-width:800px) {
 
@@ -323,12 +367,4 @@ banner h1 {
     padding-bottom: 20px;
     color: #fff;
     display: block;
-}
-
-.projectPicCol{
-width: 300px !important;
-
-height: 300px;
-
-
 }

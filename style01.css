@@ -324,3 +324,11 @@ banner h1 {
     color: #fff;
     display: block;
 }
+
+.projectPicCol{
+width: 300px !important;
+
+height: 300px;
+
+
+}
